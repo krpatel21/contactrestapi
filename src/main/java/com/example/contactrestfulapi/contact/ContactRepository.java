@@ -16,4 +16,7 @@ public interface ContactRepository extends PagingAndSortingRepository<Contact, L
 
     @RestResource(path = "email-or-phone", rel = "emailOrPhoneEquals")
     Page<Contact> findByEmailEqualsOrPersonalPhoneEquals(@Param("email") String email, @Param("phone") String phone, Pageable p);
+
+    @Override
+    void delete(Contact contact);
 }

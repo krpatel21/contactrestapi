@@ -1,26 +1,46 @@
 package com.example.contactrestfulapi.contact;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import java.sql.Date;
+import javax.persistence.*;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
+import java.util.Date;
 
 @Entity
 public class Contact {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private final Long id;
+    @NotNull
+    @Size(min = 1, max = 80)
     private String firstName;
+    @NotNull
+    @Size(min = 1, max = 80)
     private String lastName;
+    @NotNull
+    @Size(min = 1, max = 80)
     private String company;
+    @NotNull
+    @Size(min = 1, max = 80)
     private String profileImage;
+    @NotNull
+    @Size(min = 1, max = 80)
     private String email;
+    @Temporal(TemporalType.TIMESTAMP)
     private Date birthDate;
+    @NotNull
+    @Size(min = 1, max = 80)
     private String workPhone;
+    @NotNull
+    @Size(min = 1, max = 80)
     private String personalPhone;
+    @NotNull
+    @Size(min = 1, max = 80)
     private String address;
+    @NotNull
+    @Size(min = 1, max = 80)
     private String city;
+    @NotNull
+    @Size(min = 1, max = 80)
     private String state;
 
     protected Contact() {
@@ -40,6 +60,10 @@ public class Contact {
         this.address = address;
         this.city = city;
         this.state = state;
+    }
+
+    public Long getId() {
+        return id;
     }
 
     public String getFirstName() {
