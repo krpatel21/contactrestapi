@@ -28,6 +28,7 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-data-jpa')
 	compile('org.springframework.boot:spring-boot-starter-data-rest')
 	compile('com.h2database:h2')
-	compile('com.github.javafaker:javafaker:0.15')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
+	testCompile group: 'junit', name: 'junit', version: '4.12'
+
 }
