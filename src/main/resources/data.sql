@@ -1,0 +1,12 @@
+INSERT INTO CONTACT(ID, ADDRESS, BIRTH_DATE, CITY, COMPANY, EMAIL, FIRST_NAME, LAST_NAME, PERSONAL_PHONE, PROFILE_IMAGE, STATE, WORK_PHONE) VALUES
+  (1, '2222', DATE '2018-05-05', 'Chicago', 'abc corp', 'jsmith@example.com', 'John', 'Smith', '333333', 'ffff', 'Illinois', '6302222'),
+  (2, '1911 Wintheiser Cape', DATE '1997-04-15', 'Harberfort', 'O''Conner, O''Conner and O''Conner', 'rae.rosenbaum@hotmail.com', 'Abelardo', 'Schroeder', '727-501-6666', 'http://lorempixel.com/g/640/350/cats/', 'Utah', '(754) 617-9999 x777'),
+  (3, '2339 Daugherty Mountains', DATE '1972-04-05', 'Vonburgh', 'Walker-Walker', 'osborne.feest@hotmail.com', 'Tyler', 'Dietrich', '226-283-1111', 'http://lorempixel.com/g/1600/1200/nature/', 'Missouri', '712-720-6666'),
+  (4, '529 Schroeder Roads', DATE '1955-03-17', 'Port Pete', 'Cole, Cole and Cole', 'easton.cummerata@hotmail.com', 'Brock', 'Blick', '(612) 903-9999', 'http://lorempixel.com/320/200/people/', 'Delaware', '(619) 989-7777 x888'),
+  (5, '4051 Helmer Lane', DATE '1975-03-16', 'Homenickmouth', 'Stroman Inc', 'nathaniel.heaney@gmail.com', 'Ila', 'Toy', '(518) 651-8888', 'http://lorempixel.com/g/640/480/cats/', 'Hawaii', '1-323-678-1111'),
+  (6, '5290 Gutkowski Dam', DATE '1969-09-15', 'Jaidaville', 'Abbott-Abbott', 'ryann.blanda@gmail.com', 'Kian', 'Wilderman', '682-445-0000', 'http://lorempixel.com/g/1920/1200/fashion/', 'New Mexico', '714.971.1111 x555'),
+  (7, '9388 Orville Shores', DATE '1988-10-22', 'Gradyborough', 'Abbott-Abbott', 'werner.reilly@yahoo.com', 'Jerry', 'Kiehn', '1-251-918-6666', 'http://lorempixel.com/640/480/technics/', 'New Jersey', '316.682.1111 x999'),
+  (8, '1506 Gino Ridge', DATE '1981-10-02', 'DuBuqueland', 'Luettgen, Luettgen and Luettgen', 'giovani.hilpert@hotmail.com', 'Ernest', 'Rohan', '(858) 227-1111', 'http://lorempixel.com/g/1600/1200/food/', 'Arkansas', '408.405.7777 x000'),
+  (9, '48017 Violet Road', DATE '1962-04-12', 'Lake Joanie', 'Huel Inc', 'vladimir.armstrong@yahoo.com', 'Dan', 'Jaskolski', '830.301.5555', 'http://lorempixel.com/g/320/200/sports/', 'North Dakota', '1-609-862-5555'),
+  (10, '362 Brooke Parkways', DATE '1998-06-01', 'Schimmelshire', 'Prohaska-Prohaska', 'samir.terry@yahoo.com', 'Cordie', 'Price', '949.228.3333', 'http://lorempixel.com/1920/1200/cats/', 'New Mexico', '(216) 801-6666 x444'),
+  (11, '460 Moen Trafficway', DATE '1988-12-27', 'Edythefurt', 'Mohr, Mohr and Mohr', 'mathilde.schimmel@yahoo.com', 'Coby', 'Prohaska', '916-815-0000', 'http://lorempixel.com/320/200/transport/', 'Ohio', '(804) 361-7777 x888');
